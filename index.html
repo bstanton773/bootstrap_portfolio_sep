@@ -9,8 +9,48 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <title>Bootstrap Portfolio</title>
     </head>
-    <body>
-        <h1>Hello World</h1>
+    <body class='bg-light'>
+        <!-- Add container that will hold everything -->
+        <div class="container">
+            <!-- Row for My Name section -->
+            <div class="row bg-white">
+                <div class="col">
+                    <!-- My Name header -->
+                    <h1 class='text-center fw-bold pb-5'>My Name</h1>
+                </div>
+            </div>
+
+            <!-- Row for the Navbar -->
+            <div class="row">
+                <!-- Navbar from Bootstrap -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Coding Temple</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Learn HTML</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Learn CSS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Other Page</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
